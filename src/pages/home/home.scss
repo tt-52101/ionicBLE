@@ -1,3 +1,9 @@
 page-home {
+    .toolbar-content p {
+        margin-left: 10px;
+    }
 
+    .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+        color:blue;
+    }
 }
