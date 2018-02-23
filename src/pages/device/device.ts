@@ -64,7 +64,7 @@ export class DevicePage {
        () => console.log('ERROR disconnecting ' + JSON.stringify(this.peripheral))
      )
    }
-
+''
   setStatus(message){
     console.log(message);
     this.ngZone.run(() => {
